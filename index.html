@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Internee.pk | Pakistan's Internship Platform</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background:#0b1220; color:#e2e8f0; line-height:1.6; }
+  nav { display:flex; justify-content:space-between; align-items:center; padding:20px 60px; background:#111827; position:sticky; top:0; }
+  nav .logo { font-size:22px; font-weight:bold; color:#38bdf8; }
+  nav ul { list-style:none; display:flex; gap:30px; }
+  nav ul li a { color:#cbd5e1; text-decoration:none; font-size:15px; }
+  nav ul li a:hover { color:#38bdf8; }
+  .hero { text-align:center; padding:100px 20px 80px; background:linear-gradient(180deg,#0b1220,#111827); }
+  .hero h1 { font-size:42px; color:#f8fafc; margin-bottom:16px; }
+  .hero span { color:#38bdf8; }
+  .hero p { color:#94a3b8; max-width:600px; margin:0 auto 30px; }
+  .btn { background:#38bdf8; color:#0b1220; padding:12px 28px; border-radius:8px; font-weight:bold; text-decoration:none; display:inline-block; }
+  .badge { margin-top:24px; display:inline-block; padding:6px 16px; background:#16a34a; border-radius:20px; font-size:13px; }
+  section { padding:70px 60px; max-width:1100px; margin:0 auto; }
+  section h2 { font-size:28px; color:#f1f5f9; margin-bottom:10px; text-align:center; }
+  section p.sub { text-align:center; color:#94a3b8; margin-bottom:40px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:24px; }
+  .card { background:#1e293b; padding:26px; border-radius:12px; }
+  .card h3 { color:#38bdf8; margin-bottom:8px; font-size:18px; }
+  .card p { color:#94a3b8; font-size:14px; }
+  .team-card { text-align:center; }
+  .avatar { width:70px; height:70px; border-radius:50%; background:#334155; margin:0 auto 14px; display:flex; align-items:center; justify-content:center; font-size:24px; color:#38bdf8; font-weight:bold; }
+  footer { text-align:center; padding:30px; color:#64748b; font-size:13px; border-top:1px solid #1e293b; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Internee<span style="color:#f8fafc">.pk</span></div>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#programs">Programs</a></li>
+    <li><a href="#mentors">Mentors</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="hero">
+  <h1>Launch Your Career with <span>Internee.pk</span></h1>
+  <p>Pakistan's platform connecting students with real-world virtual internships across tech, cloud, and business domains.</p>
+  <a href="#programs" class="btn">Explore Programs</a>
+  <br>
+  <span class="badge">✓ Deployed on AWS · Secured with HTTPS</span>
+</div>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p class="sub">Who we are and what we do</p>
+  <div class="grid">
+    <div class="card">
+      <h3>Our Mission</h3>
+      <p>Internee.pk bridges the gap between students and industry by offering structured, mentor-led virtual internships across in-demand fields.</p>
+    </div>
+    <div class="card">
+      <h3>Our Reach</h3>
+      <p>Thousands of students across Pakistan have completed hands-on programs with us, gaining real project experience before entering the job market.</p>
+    </div>
+    <div class="card">
+      <h3>Our Approach</h3>
+      <p>Every program is task-based and mentor-reviewed, so interns build a genuine portfolio — not just a certificate.</p>
+    </div>
+  </div>
+</section>
+
+<section id="programs">
+  <h2>Internship Programs</h2>
+  <p class="sub">Choose a track that fits your goals</p>
+  <div class="grid">
+    <div class="card"><h3>☁️ Cloud Computing</h3><p>AWS/GCP/Azure deployment, monitoring, and infrastructure fundamentals.</p></div>
+    <div class="card"><h3>💻 Web Development</h3><p>Frontend and backend fundamentals with real deployment tasks.</p></div>
+    <div class="card"><h3>🤖 AI & Machine Learning</h3><p>Applied ML tasks, model training, and evaluation projects.</p></div>
+    <div class="card"><h3>📊 Data Analytics</h3><p>Data cleaning, visualization, and business insight projects.</p></div>
+    <div class="card"><h3>🎨 UI/UX Design</h3><p>Wireframing, prototyping, and usability testing tasks.</p></div>
+    <div class="card"><h3>📱 Digital Marketing</h3><p>SEO, content strategy, and campaign analytics tasks.</p></div>
+  </div>
+</section>
+
+<section id="mentors">
+  <h2>Meet the Mentors</h2>
+  <p class="sub">Industry professionals guiding your journey</p>
+  <div class="grid">
+    <div class="card team-card"><div class="avatar">AK</div><h3>Ayesha Khan</h3><p>Cloud & DevOps Mentor</p></div>
+    <div class="card team-card"><div class="avatar">BM</div><h3>Bilal Mahmood</h3><p>AI/ML Mentor</p></div>
+    <div class="card team-card"><div class="avatar">SH</div><h3>Sana Hassan</h3><p>Web Development Mentor</p></div>
+    <div class="card team-card"><div class="avatar">ZR</div><h3>Zain Raza</h3><p>Data Analytics Mentor</p></div>
+  </div>
+</section>
+
+<footer id="contact">
+  Internee.pk — Cloud deployment demo by Ahmed Rehman · Hosted on AWS EC2 · Secured with Let's Encrypt SSL
+</footer>
+
+</body>
+</html>
